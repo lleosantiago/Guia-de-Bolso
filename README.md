@@ -21,7 +21,7 @@ As respostas ficam no armazenamento de sessão do navegador. A página usa o nom
 
 ## Checkout
 
-O link do checkout ainda não foi informado. Os botões apresentam um aviso de compra indisponível nesta prévia. Quando houver um link, preencha `checkoutUrl` em `sales.js` com a URL HTTPS do checkout. Os parâmetros de campanha `utm_*`, `fbclid`, `gclid` e `ttclid` da visita são preservados para esse destino; nome e respostas do quiz não são enviados.
+Os botões de compra da landing page levam a `https://pay.wiapy.com/q5hfDfxgm7rL`. Os botões de navegação do quiz continuam no quiz. Os parâmetros de campanha `utm_*`, `fbclid`, `gclid` e `ttclid` da visita são preservados para o checkout; nome e respostas do quiz não são enviados no link.
 
 ## Rastreamento
 

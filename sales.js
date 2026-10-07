@@ -1,5 +1,5 @@
 /* Configuração da campanha. O checkout não recebe as respostas do quiz. */
-const APARECIDA_OFFER = Object.freeze({ price: "R$ 27,90", checkoutUrl: "", launchesAt: "2026-10-07T00:00:00-03:00", startsAt: "2026-10-08T00:00:00-03:00", endsAt: "2026-10-12T00:00:00-03:00", closesAt: "2026-10-13T00:00:00-03:00" });
+const APARECIDA_OFFER = Object.freeze({ price: "R$ 27,90", checkoutUrl: "https://pay.wiapy.com/q5hfDfxgm7rL", launchesAt: "2026-10-07T00:00:00-03:00", startsAt: "2026-10-08T00:00:00-03:00", endsAt: "2026-10-12T00:00:00-03:00", closesAt: "2026-10-13T00:00:00-03:00" });
 
 /* Apenas parâmetros de campanha seguem para o checkout; respostas do quiz nunca entram no link. */
 const APARECIDA_CAMPAIGN_PARAMS = /^(utm_(source|medium|campaign|content|term|id)|fbclid|gclid|ttclid)$/i;
